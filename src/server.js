@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 import app from "./app.js";
 import dotenv from "dotenv";
-import {seedLessons} from "../seed/seedLessons.js"
+import {seedLessons} from "../seed/seedLessons.js" // comment this code uncomment it when u want to push lessons only
 
 dotenv.config();
 
