@@ -6,7 +6,7 @@ import Lesson from "../src/models/lesson.models.js"
 
 dotenv.config();
 
-const seedLessons = async () => {
+export const seedLessons = async () => {
     try {
         console.log("data is pushing in db");
         await mongoose.connect(process.env.MONGODB_URI)
